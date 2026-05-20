@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Law Office of Sample & Associates | Vacaville, CA</title>
+    <meta name="description" content="Schedule a free consultation with Law Office of Sample & Associates. Contact form, appointment booking, client intake, and office directions.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="index.html" class="logo" aria-label="Law Office of Sample & Associates home">
+                <span class="logo-icon" aria-hidden="true">⚖</span>
+                Sample & Associates
+            </a>
+            <button class="mobile-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-menu" role="menubar">
+                <li role="none"><a href="index.html" role="menuitem">Home</a></li>
+                <li role="none"><a href="about.html" role="menuitem">About</a></li>
+                <li role="none"><a href="services.html" role="menuitem">Services</a></li>
+                <li role="none"><a href="testimonials.html" role="menuitem">Testimonials</a></li>
+                <li role="none"><a href="contact.html" role="menuitem" aria-current="page">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="header-content">
+            <p class="header-eyebrow">Get In Touch</p>
+            <h1>Let's Discuss Your Case</h1>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Contact Split -->
+        <section class="contact-split" aria-label="Contact information and form">
+            <div class="contact-info-panel">
+                <div class="info-block">
+                    <h3>Office Location</h3>
+                    <address>
+                        123 Main Street, Suite 300<br>
+                        Vacaville, CA 95688
+                    </address>
+                    <p><a href="https://maps.google.com/?q=123+Main+Street+Vacaville+CA+95688" target="_blank" rel="noopener" class="link-arrow">Get Directions →</a></p>
+                </div>
+
+                <div class="info-block">
+                    <h3>Phone & Email</h3>
+                    <p><a href="tel:7075550199">(707) 555-0199</a></p>
+                    <p><a href="mailto:contact@sampleassociates.example">contact@sampleassociates.example</a></p>
+                </div>
+
+                <div class="info-block">
+                    <h3>Office Hours</h3>
+                    <p>Monday – Friday: 8:30am – 5:30pm</p>
+                    <p>Saturday: 9:00am – 12:00pm</p>
+                    <p>Evening appointments available by request</p>
+                </div>
+
+                <div class="info-block">
+                    <h3>Emergency Contact</h3>
+                    <p>For urgent criminal matters:</p>
+                    <p><a href="tel:7075550199" class="btn-primary">Call (707) 555-0199</a></p>
+                    <p class="emergency-note">24-hour answering service for existing clients</p>
+                </div>
+
+                <!-- Google Map Embed -->
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3120.0!2d-121.9876!3d38.3566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDIxJzIzLjgiTiAxMjHCsDU5JzE1LjQiVw!5e0!3m2!1sen!2sus!4v1609459200000!5m2!1sen!2sus"
+                        width="100%" 
+                        height="250" 
+                        style="border:0; border-radius: 8px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Office location map"
+                        aria-label="Google map showing office location at 123 Main Street Vacaville CA">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="contact-form-panel">
+                <div class="form-intro">
+                    <p class="section-eyebrow">Free Consultation</p>
+                    <h2>Schedule Your Appointment</h2>
+                    <p>Complete the form below and we'll contact you within one business day to confirm your consultation.</p>
+                </div>
+
+                <form class="booking-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" aria-label="Appointment booking form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="first-name">First Name <span aria-label="required">*</span></label>
+                            <input type="text" id="first-name" name="first-name" required aria-required="true" autocomplete="given-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name <span aria-label="required">*</span></label>
+                            <input type="text" id="last-name" name="last-name" required aria-required="true" autocomplete="family-name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email <span aria-label="required">*</span></label>
+                        <input type="email" id="email" name="email" required aria-required="true" autocomplete="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone <span aria-label="required">*</span></label>
+                        <input type="tel" id="phone" name="phone" required aria-required="true" autocomplete="tel">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="practice-area">Practice Area <span aria-label="required">*</span></label>
+                            <select id="practice-area" name="practice-area" required aria-required="true">
+                                <option value="">Select...</option>
+                                <option value="family">Family Law</option>
+                                <option value="criminal">Criminal Defense</option>
+                                <option value="injury">Personal Injury</option>
+                                <option value="estate">Estate Planning</option>
+                                <option value="business">Business Law</option>
+                                <option value="other">Other / Not Sure</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="client-type">Are you a new client? <span aria-label="required">*</span></label>
+                            <select id="client-type" name="client-type" required aria-required="true">
+                                <option value="">Select...</option>
+                                <option value="new">New Client</option>
+                                <option value="existing">Existing Client</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="preferred-date">Preferred Consultation Date</label>
+                        <input type="date" id="preferred-date" name="preferred-date">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="preferred-time">Preferred Time</label>
+                        <select id="preferred-time" name="preferred-time">
+                            <option value="">No preference</option>
+                            <option value="morning">Morning (8:30am – 12:00pm)</option>
+                            <option value="afternoon">Afternoon (12:00pm – 5:30pm)</option>
+                            <option value="evening">Evening (after 5:30pm)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="case-summary">Brief Case Summary <span aria-label="required">*</span></label>
+                        <textarea id="case-summary" name="case-summary" rows="4" required aria-required="true" placeholder="Please provide a brief description of your legal matter..."></textarea>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="urgent" value="yes">
+                            <span>This is an urgent matter (needs attention within 48 hours)</span>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Request Consultation</button>
+
+                    <p class="form-privacy">Your information is confidential and protected by attorney-client privilege. We never share your details with third parties.</p>
+                </form>
+            </div>
+        </section>
+
+        <!-- Client Intake Form -->
+        <section class="intake-section" id="intake" aria-labelledby="intake-heading">
+            <div class="section-container">
+                <div class="intake-header">
+                    <p class="section-eyebrow">New Clients</p>
+                    <h2 id="intake-heading">Client Intake Form</h2>
+                    <p>Already scheduled your consultation? Complete this intake form beforehand so we can maximize our time together.</p>
+                </div>
+
+                <form class="intake-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" aria-label="Client intake form">
+                    <fieldset class="form-section">
+                        <legend>Personal Information</legend>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="intake-first-name">First Name <span aria-label="required">*</span></label>
+                                <input type="text" id="intake-first-name" name="first-name" required aria-required="true">
+                            </div>
+                            <div class="form-group">
+                                <label for="intake-last-name">Last Name <span aria-label="required">*</span></label>
+                                <input type="text" id="intake-last-name" name="last-name" required aria-required="true">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="intake-dob">Date of Birth</label>
+                                <input type="date" id="intake-dob" name="dob">
+                            </div>
+                            <div class="form-group">
+                                <label for="intake-ssn">Last 4 of SSN</label>
+                                <input type="text" id="intake-ssn" name="ssn-last4" maxlength="4" pattern="[0-9]{4}" placeholder="XXXX">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="intake-address">Home Address</label>
+                            <input type="text" id="intake-address" name="address" placeholder="Street, City, State, ZIP">
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="form-section">
+                        <legend>Case Information</legend>
+                        <div class="form-group">
+                            <label for="intake-case-type">Type of Legal Matter <span aria-label="required">*</span></label>
+                            <select id="intake-case-type" name="case-type" required aria-required="true">
+                                <option value="">Select...</option>
+                                <option value="divorce">Divorce / Legal Separation</option>
+                                <option value="custody">Child Custody / Support</option>
+                                <option value="dui">DUI / Criminal Charge</option>
+                                <option value="injury">Personal Injury</option>
+                                <option value="will">Will / Trust / Estate</option>
+                                <option value="business">Business Matter</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="intake-urgency">Urgency Level</label>
+                            <select id="intake-urgency" name="urgency">
+                                <option value="low">Low — exploring options</option>
+                                <option value="medium" selected>Medium — need guidance soon</option>
+                                <option value="high">High — immediate action needed</option>
+                                <option value="emergency">Emergency — court date or deadline within 7 days</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="intake-details">Detailed Case Description <span aria-label="required">*</span></label>
+                            <textarea id="intake-details" name="case-details" rows="6" required aria-required="true" placeholder="Please describe your legal matter in detail. Include dates, parties involved, prior legal action, and what outcome you hope to achieve."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="intake-documents">Relevant Documents</label>
+                            <input type="file" id="intake-documents" name="documents" multiple accept=".pdf,.doc,.docx,.jpg,.png">
+                            <small class="form-help">Upload court papers, contracts, photos, or other relevant files (PDF, Word, images accepted)</small>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="form-section">
+                        <legend>Contact Preferences</legend>
+                        <div class="form-group">
+                            <label>Preferred Contact Method</label>
+                            <div class="radio-group">
+                                <label class="radio-label">
+                                    <input type="radio" name="contact-pref" value="phone" checked>
+                                    <span>Phone</span>
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="contact-pref" value="email">
+                                    <span>Email</span>
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="contact-pref" value="text">
+                                    <span>Text Message</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="consent" value="yes" required aria-required="true">
+                                <span>I consent to being contacted regarding my legal matter. I understand this does not create an attorney-client relationship. <span aria-label="required">*</span></span>
+                            </label>
+                        </div>
+                    </fieldset>
+
+                    <button type="submit" class="btn-submit">Submit Intake Form</button>
+
+                    <p class="form-privacy">This form is encrypted and secure. Information provided is confidential and protected under California attorney-client privilege rules.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <p class="logo-footer">Law Office of Sample & Associates</p>
+                    <p class="footer-tagline">Experienced legal counsel serving Vacaville and Solano County since 2015.</p>
+                    <div class="social-links" aria-label="Social media links">
+                        <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="#" aria-label="Facebook" target="_blank" rel="noopener">Facebook</a>
+                        <a href="#" aria-label="Avvo" target="_blank" rel="noopener">Avvo</a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><a href="tel:7075550199">(707) 555-0199</a></p>
+                    <p><a href="mailto:contact@sampleassociates.example">contact@sampleassociates.example</a></p>
+                    <address>
+                        123 Main Street, Suite 300<br>
+                        Vacaville, CA 95688
+                    </address>
+                </div>
+                <div class="footer-hours">
+                    <h4>Office Hours</h4>
+                    <p>Mon–Fri: 8:30am – 5:30pm</p>
+                    <p>Sat: 9:00am – 12:00pm</p>
+                    <p>Evening appointments available</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Attorney advertising. Prior results do not guarantee a similar outcome.</p>
+                <p>&copy; 2026 Law Office of Sample & Associates. All rights reserved.</p>
+                <p class="footer-legal">This website is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by use of this site.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
