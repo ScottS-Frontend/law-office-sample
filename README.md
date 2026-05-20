@@ -4,7 +4,7 @@ A professional services website for a fictional law firm in Vacaville, CA. Built
 
 ## Live Site
 
-https://YOUR_VERCEL_URL_HERE.vercel.app
+https://law-office-sample.vercel.app/
 
 ## About the Project
 
@@ -49,6 +49,6 @@ This is a fictional demo site showcasing a $1,200 Business Site package. It demo
 ## Local Development
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/law-office-sample.git
+git clone https://github.com/ScottS-Frontend/law-office-sample.git
 cd law-office-sample
 open index.html
