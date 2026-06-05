@@ -1,6 +1,6 @@
 # Law Office of Sample & Associates
 
-A professional services website for a fictional law firm in Vacaville, CA. Built as a portfolio demo for the Business Site tier ($1,200) at SS Web Design.
+A professional services website for a fictional law firm in Vacaville, CA. Built as a portfolio demo for the Business Site tier ($1,500 - $2,500) at SS Web Design.
 
 ## Live Site
 
@@ -8,7 +8,7 @@ https://law-office-sample.vercel.app/
 
 ## About the Project
 
-This is a fictional demo site showcasing a $1,200 Business Site package. It demonstrates professional web design for service-based businesses.
+This is a fictional demo site showcasing ($1,500 - $2,500) Business Site package. It demonstrates professional web design for service-based businesses.
 
 **Fictional Business Details:**
 - Name: Law Office of Sample & Associates
